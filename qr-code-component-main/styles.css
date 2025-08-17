@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+   
+    --White: hsl(0, 0%, 100%);
+    --Slate-1: hsl(212, 45%, 89%);
+    --Slate-2: hsl(216, 15%, 48%);
+    --Slate-3: hsl(218, 44%, 22%);
+}
+
+.body{
+    font-size: 0.9375rem;
+    font-weight: 400;
+    font-family: Outfit, sans-serif;
+    background:var(--Slate-3);
+    width: 100%;
+    color: var(--Slate-2);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    height: 100vh;
+}
+.container{
+    width: 350px;
+    border-radius: 10px;
+    background-color:var(--White);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2);
+}
+.qr-code{
+    text-align: center;
+}
+.qr-code img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.content h2{
+    font-weight: 700;
+    font-weight: 1rem;
+    margin-bottom: .8em;
+
+}
